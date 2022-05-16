@@ -25,7 +25,7 @@ spec:
         app: pay-service
     spec:
       containers:
-      - image: samaratungajs/ctse-2022:61db1866898445a021c67569d233b9c1ee18131e
+      - image: samaratungajs/ctse-2022:{{tag}}
         imagePullPolicy: Always
         name: ctse-2022
         resources: {}
